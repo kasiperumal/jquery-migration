@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Sample Project</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .hidden { display: none; }
+        .fadeIn { animation: fadeInAnimation 1s; }
+        @keyframes fadeInAnimation { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+    <h1>jQuery Sample Project</h1>
+
+    <!-- DOM Manipulation -->
+    <div id="domElement">Original Content</div>
+    <button id="changeContentButton">Change Content</button>
+
+    <!-- Event Handling -->
+    <button id="eventHandlingButton">Click for Alert</button>
+
+    <!-- AJAX Requests -->
+    <div id="ajaxContent">Loading data...</div>
+
+    <!-- Rendering Lists -->
+    <ul id="itemList"></ul>
+
+    <!-- Form Handling -->
+    <form id="simpleForm">
+        <input type="text" id="textInput" placeholder="Type something...">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="formOutput"></div>
+
+    <!-- Conditional Rendering -->
+    <button id="toggleMessage">Toggle Message</button>
+    <div id="conditionalMessage" class="hidden">You toggled the message!</div>
+
+    <!-- Animations -->
+    <button id="animateButton">Animate</button>
+    <div id="animatedElement" class="hidden">Animated Element</div>
+
+    <script type="text/javascript" src="asset/js/script.js"></script>
+</body>
+</html>
